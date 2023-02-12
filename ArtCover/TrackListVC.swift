@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TrackList: UITableViewController {
+class TrackListVC: UITableViewController {
     
     let imageNameArray = ["Alberto Ruiz - 7 Elements (Original Mix)",
                           "Dave Wincent - Red Eye (Original Mix)",
