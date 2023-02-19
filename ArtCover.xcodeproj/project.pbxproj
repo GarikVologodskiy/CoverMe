@@ -12,7 +12,7 @@
 		F3B1ED352999544C00A7912E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B1ED332999544C00A7912E /* Main.storyboard */; };
 		F3B1ED372999544D00A7912E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B1ED362999544D00A7912E /* Assets.xcassets */; };
 		F3B1ED3A2999544D00A7912E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B1ED382999544D00A7912E /* LaunchScreen.storyboard */; };
-		F3B1ED42299954B500A7912E /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1ED41299954B500A7912E /* TrackList.swift */; };
+		F3B1ED42299954B500A7912E /* TrackListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1ED41299954B500A7912E /* TrackListVC.swift */; };
 		F3B1ED462999621900A7912E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1ED452999621900A7912E /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		F3B1ED362999544D00A7912E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3B1ED392999544D00A7912E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3B1ED3B2999544D00A7912E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3B1ED41299954B500A7912E /* TrackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
+		F3B1ED41299954B500A7912E /* TrackListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListVC.swift; sourceTree = "<group>"; };
 		F3B1ED452999621900A7912E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 			children = (
 				F3B1ED2D2999544C00A7912E /* AppDelegate.swift */,
 				F3B1ED2F2999544C00A7912E /* SceneDelegate.swift */,
-				F3B1ED41299954B500A7912E /* TrackList.swift */,
+				F3B1ED41299954B500A7912E /* TrackListVC.swift */,
 				F3B1ED452999621900A7912E /* DetailVC.swift */,
 				F3B1ED332999544C00A7912E /* Main.storyboard */,
 				F3B1ED362999544D00A7912E /* Assets.xcassets */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B1ED42299954B500A7912E /* TrackList.swift in Sources */,
+				F3B1ED42299954B500A7912E /* TrackListVC.swift in Sources */,
 				F3B1ED462999621900A7912E /* DetailVC.swift in Sources */,
 				F3B1ED2E2999544C00A7912E /* AppDelegate.swift in Sources */,
 				F3B1ED302999544C00A7912E /* SceneDelegate.swift in Sources */,

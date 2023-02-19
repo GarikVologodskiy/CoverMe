@@ -57,7 +57,7 @@ class TrackListVC: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                guard let detailVC = segue.destination as? DetailVC else {return}
+                guard let detailVC = segue.destination as? DetailVC else { return }
                 detailVC.trackTitle = imageNameArray[indexPath.row]
             }
            
